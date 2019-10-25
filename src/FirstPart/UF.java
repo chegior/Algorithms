@@ -14,5 +14,11 @@ public class UF {
 			System.out.println(i);
 		}
 		System.out.println("Hello World " + Arrays.toString(data));
+		System.out.println("and after the return value is :" + union(data[1],data[9]));		
 		}
+		
+	public static int union(int p, int q) {
+		System.out.println("Here at function union"+ p +" and " + q);
+		return p+q;
+	}
 	}
